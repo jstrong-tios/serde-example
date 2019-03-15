@@ -68,7 +68,7 @@ Map structs to database tables easily.
 $ diesel print-schema > src/schema.rs
 ```
 
-Also map to user-defined structs, general orm capability but with compile time type checks against database table definitions, plus excellent performance.
+Also map to user-defined structs. Diesel has general orm capability but with type safety (optional compile time checks between struct and database table types, for example) and excellent performance.
 
 ```rust
 use diesel::prelude::*;
